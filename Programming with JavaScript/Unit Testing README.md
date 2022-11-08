@@ -17,6 +17,12 @@
 
 ## Task 1: Add Jest as a devDependency
 
+cd jest-testing
+
+npm init -y
+
+npm install --save-dev jest
+
 Open terminal. Make sure that it's pointing to `jest-testing` directory.  
 Install the jest npm package using the npm install command and the --save-dev flag.  
 Verify that the installation was completed successfully by opening the package.json file and confirming that the "devDependencies" entry lists jest similar to the following:
@@ -33,6 +39,8 @@ Verify that the installation was completed successfully by opening the package.
 In the package.json file, locate the "scripts" entry, and inside of it, update the test entry to `jest`.
 <br><br>
 
+on package.json line 7 put "test":"jest" 
+
 ## Task 3: Code the timesTwo function
 
 Open the timesTwo.js file and add a function named `timesTwo`. The function should take number as input and return the value 2 multiplied by the number.
@@ -48,4 +56,4 @@ Code a test call with the following arguments:
 ## Task 5: Run the first test 
 With the terminal pointed at the `jest-testing` directory, run the test script using npm.
 
-
+in the terminal make sure it pointing to `jest-testing` directory,if not return the 1 step! than you can input " npm run test" press the Enter button! it show the green color "pass" it means you pass it !
